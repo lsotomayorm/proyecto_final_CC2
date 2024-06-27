@@ -18,7 +18,8 @@ private:
     Player* player;
     //Enemies
     std::vector<Enemy*> enemies; 
-    
+    float spawnTimer;
+    float spawnTimerMax;
 
     //Clock
     sf::Clock clock;
@@ -27,6 +28,7 @@ private:
     void initPlayer();
     void initTextures();
     void initBackground();
+    void initEnemies();
 
 
 
@@ -37,6 +39,7 @@ public:
     void run();
     void updatePollEvents();
     void updateinput();
+    void updateEnemies(const float& deltaTime);
     void update();
     void render();
 };

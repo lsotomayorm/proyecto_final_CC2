@@ -2,7 +2,7 @@
 
 void Enemy::initTexture()
 {
-    if(!this->texture.loadFromFile("src/Enemy.png")){
+    if(!this->texture.loadFromFile("src/Textures/Enemy.png")){
         std::cout << "ERROR::ENEMY::INITTEXTURE::Could not load texture file." << "\n";
     }
 
@@ -17,7 +17,7 @@ void Enemy::initSprite()
 
 Enemy::Enemy(float posX, float posY)
 {
-    this->movementSpeed = 100.0f;
+    this->movementSpeed = 150.0f;
 
     this->initTexture();
     this->initSprite();

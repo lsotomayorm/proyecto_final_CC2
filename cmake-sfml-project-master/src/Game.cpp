@@ -33,6 +33,12 @@ void Game::initBackground()
     );
 }
 
+void Game::initEnemies()
+{
+    this->spawnTimerMax = 50.f;
+    this->spawnTimer = this->spawnTimerMax;
+}
+
 //Con/Des
 Game::Game()
 {
@@ -40,6 +46,7 @@ Game::Game()
     this->initTextures();
     this->initBackground();
     this->initPlayer();
+    this->initEnemies();
 }
 
 Game::~Game()
@@ -85,6 +92,35 @@ void Game::updateinput()
     }
 }
 
+void Game::updateEnemies(const float& DeltaTime)
+{
+    if(this->spawnTimer < this->spawnTimerMax)
+        this->spawnTimer += 1.f;
+    else{
+        for (int i = 0; i < 4; i++)
+        {
+            this->enemies.push_back(new Enemy(static_cast<float>(rand() % this->window->getSize().x - 50.0f), -50.0f));
+        }
+        
+        this->spawnTimer = 0.f;
+    }
+    unsigned counter = 0;
+    for (auto* enemy : this->enemies)
+    {
+        enemy->update(DeltaTime);
+
+        // Si el enemigo ha pasado la parte inferior de la pantalla, elimínalo.
+        if (enemy->getBounds().top > this->window->getSize().y)
+        {
+            delete this->enemies.at(counter);
+            this->enemies.erase(this->enemies.begin() + counter);
+            --counter;
+        }
+
+        ++counter;
+    }
+}
+
 void Game::update()
 {
     
@@ -93,6 +129,7 @@ void Game::update()
 
     float deltaTime = this->clock.restart().asSeconds();
     this->player->update(deltaTime);
+    this->updateEnemies(deltaTime);
     
 }
 
@@ -102,6 +139,11 @@ void Game::render()
     this->window->draw(this->backgSprite);
     //Draw all the stuffs
     this->player->render(*this->window);
+    //Draw Enemies
+    for (auto* enemy : this->enemies)
+    {
+        enemy->render(*this->window);
+    }
 
     this->window->display();
 }
