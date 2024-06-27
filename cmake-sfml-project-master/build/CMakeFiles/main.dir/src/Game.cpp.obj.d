@@ -250,4 +250,5 @@ CMakeFiles/main.dir/src/Game.cpp.obj: \
  C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
  C:\bomb_storm\proyecto_final_CC2\cmake-sfml-project-master\src\Player.h \
- C:/PROGRA~2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream
+ C:/PROGRA~2/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+ C:\bomb_storm\proyecto_final_CC2\cmake-sfml-project-master\src\Enemy.h

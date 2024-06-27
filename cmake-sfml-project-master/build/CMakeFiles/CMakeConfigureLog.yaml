@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -49,21 +49,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d6905/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d6905.dir\\build.make CMakeFiles/cmTC_d6905.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9'
-        Building CXX object CMakeFiles/cmTC_d6905.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE   -v -o CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_914e5/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_914e5.dir\\build.make CMakeFiles/cmTC_914e5.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo'
+        Building CXX object CMakeFiles/cmTC_914e5.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE   -v -o CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 --enable-shared --enable-static --enable-targets=all --enable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-sjlj-exceptions --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch-32=i686 --with-arch-64=nocona --with-tune-32=generic --with-tune-64=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-sjlj-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccsNRFSn.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccpNVZli.s
         GNU C++14 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -90,17 +90,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4d9b8bf99f17512bc9c3ca87fdffa973
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccsNRFSn.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccpNVZli.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../libexec/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../lib/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-        Linking CXX executable cmTC_d6905.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d6905.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d6905.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_d6905.dir/objects.a @CMakeFiles\\cmTC_d6905.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d6905.dir/objects.a -Wl,--no-whole-archive -o cmTC_d6905.exe -Wl,--out-implib,libcmTC_d6905.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        Linking CXX executable cmTC_914e5.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_914e5.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_914e5.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_914e5.dir/objects.a @CMakeFiles\\cmTC_914e5.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_914e5.dir/objects.a -Wl,--no-whole-archive -o cmTC_914e5.exe -Wl,--out-implib,libcmTC_914e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE
         COLLECT_LTO_WRAPPER=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -110,13 +110,13 @@ events:
         gcc version 8.1.0 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 
         COMPILER_PATH=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../libexec/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../lib/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6905.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccUTR6qK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_d6905.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6905.dir/objects.a --no-whole-archive --out-implib libcmTC_d6905.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_914e5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccO198fv.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_914e5.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_914e5.dir/objects.a --no-whole-archive --out-implib libcmTC_914e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
         collect2 version 8.1.0
-        C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccUTR6qK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_d6905.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6905.dir/objects.a --no-whole-archive --out-implib libcmTC_d6905.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccO198fv.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_914e5.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_914e5.dir/objects.a --no-whole-archive --out-implib libcmTC_914e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
         GNU ld (GNU Binutils) 2.30
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6905.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_914e5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo'
         
       exitCode: 0
   -
@@ -155,21 +155,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9']
+        ignore line: [Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d6905/fast]
-        ignore line: [C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d6905.dir\\build.make CMakeFiles/cmTC_d6905.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-skqll9']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d6905.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE   -v -o CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_914e5/fast]
+        ignore line: [C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_914e5.dir\\build.make CMakeFiles/cmTC_914e5.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-wwgbjo']
+        ignore line: [Building CXX object CMakeFiles/cmTC_914e5.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE   -v -o CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 --enable-shared --enable-static --enable-targets=all --enable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-sjlj-exceptions --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch-32=i686 --with-arch-64=nocona --with-tune-32=generic --with-tune-64=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-sjlj-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-sjlj-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccsNRFSn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccpNVZli.s]
         ignore line: [GNU C++14 (x86_64-posix-sjlj-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -196,8 +196,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4d9b8bf99f17512bc9c3ca87fdffa973]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccsNRFSn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccpNVZli.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../libexec/gcc/]
@@ -208,12 +208,12 @@ events:
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d6905.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        ignore line: [Linking CXX executable cmTC_d6905.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d6905.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d6905.dir/objects.a]
-        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_d6905.dir/objects.a @CMakeFiles\\cmTC_d6905.dir\\objects1.rsp]
-        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_d6905.dir/objects.a -Wl --no-whole-archive -o cmTC_d6905.exe -Wl --out-implib libcmTC_d6905.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_914e5.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking CXX executable cmTC_914e5.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_914e5.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_914e5.dir/objects.a]
+        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_914e5.dir/objects.a @CMakeFiles\\cmTC_914e5.dir\\objects1.rsp]
+        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_914e5.dir/objects.a -Wl --no-whole-archive -o cmTC_914e5.exe -Wl --out-implib libcmTC_914e5.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\C__~1.EXE]
         ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -230,13 +230,13 @@ events:
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6905.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-        link line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccUTR6qK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_d6905.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6905.dir/objects.a --no-whole-archive --out-implib libcmTC_d6905.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_914e5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+        link line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccO198fv.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_914e5.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_914e5.dir/objects.a --no-whole-archive --out-implib libcmTC_914e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccUTR6qK.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccO198fv.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -260,7 +260,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_d6905.exe] ==> ignore
+          arg [cmTC_914e5.exe] ==> ignore
           arg [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
           arg [-LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
@@ -271,10 +271,10 @@ events:
           arg [-LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_d6905.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_914e5.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_d6905.dll.a] ==> ignore
+          arg [libcmTC_914e5.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -300,7 +300,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> obj [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
         ignore line: [collect2 version 8.1.0]
-        ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccUTR6qK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_d6905.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d6905.dir/objects.a --no-whole-archive --out-implib libcmTC_d6905.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccO198fv.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_914e5.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_914e5.dir/objects.a --no-whole-archive --out-implib libcmTC_914e5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
         linker tool for 'CXX': C:/PROGRA~2/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -360,8 +360,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -372,21 +372,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_82e87/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_82e87.dir\\build.make CMakeFiles/cmTC_82e87.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8'
-        Building C object CMakeFiles/cmTC_82e87.dir/CMakeCCompilerABI.c.obj
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2f109/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2f109.dir\\build.make CMakeFiles/cmTC_2f109.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13'
+        Building C object CMakeFiles/cmTC_2f109.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 --enable-shared --enable-static --enable-targets=all --enable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-sjlj-exceptions --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch-32=i686 --with-arch-64=nocona --with-tune-32=generic --with-tune-64=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-sjlj-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib '
         Thread model: posix
         gcc version 8.1.0 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccfurTyd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccC40BXG.s
         GNU C17 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
         
@@ -407,17 +407,17 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 7d6121789872d4509209e56c3264e038
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-         C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccfurTyd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+         C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccC40BXG.s
         GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30
         COMPILER_PATH=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../libexec/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../lib/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
-        Linking C executable cmTC_82e87.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_82e87.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_82e87.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_82e87.dir/objects.a @CMakeFiles\\cmTC_82e87.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_82e87.dir/objects.a -Wl,--no-whole-archive -o cmTC_82e87.exe -Wl,--out-implib,libcmTC_82e87.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona'
+        Linking C executable cmTC_2f109.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2f109.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2f109.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2f109.dir/objects.a @CMakeFiles\\cmTC_2f109.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2f109.dir/objects.a -Wl,--no-whole-archive -o cmTC_2f109.exe -Wl,--out-implib,libcmTC_2f109.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe
@@ -427,13 +427,13 @@ events:
         gcc version 8.1.0 (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 
         COMPILER_PATH=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../libexec/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/;C:/PROGRA~2/mingw64/bin/../lib/gcc/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82e87.exe' '-mtune=core2' '-march=nocona'
-         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccyNbdzq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_82e87.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_82e87.dir/objects.a --no-whole-archive --out-implib libcmTC_82e87.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f109.exe' '-mtune=core2' '-march=nocona'
+         C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccwr2IZ2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_2f109.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f109.dir/objects.a --no-whole-archive --out-implib libcmTC_2f109.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
         collect2 version 8.1.0
-        C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccyNbdzq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_82e87.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_82e87.dir/objects.a --no-whole-archive --out-implib libcmTC_82e87.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
+        C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccwr2IZ2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_2f109.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f109.dir/objects.a --no-whole-archive --out-implib libcmTC_2f109.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o
         GNU ld (GNU Binutils) 2.30
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82e87.exe' '-mtune=core2' '-march=nocona'
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f109.exe' '-mtune=core2' '-march=nocona'
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13'
         
       exitCode: 0
   -
@@ -466,21 +466,21 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8']
+        ignore line: [Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_82e87/fast]
-        ignore line: [C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_82e87.dir\\build.make CMakeFiles/cmTC_82e87.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2ewfo8']
-        ignore line: [Building C object CMakeFiles/cmTC_82e87.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2f109/fast]
+        ignore line: [C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2f109.dir\\build.make CMakeFiles/cmTC_2f109.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-3pwh13']
+        ignore line: [Building C object CMakeFiles/cmTC_2f109.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-8.1.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 --enable-shared --enable-static --enable-targets=all --enable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-sjlj-exceptions --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch-32=i686 --with-arch-64=nocona --with-tune-32=generic --with-tune-64=core2 --with-libiconv --with-system-zlib --with-gmp=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/mingw810/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-sjlj-rev0, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/include -I/c/mingw810/prerequisites/x86_64-zlib-static/include -I/c/mingw810/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/c/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64/opt/lib -L/c/mingw810/prerequisites/x86_64-zlib-static/lib -L/c/mingw810/prerequisites/x86_64-w64-mingw32-static/lib ']
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.1.0 (x86_64-posix-sjlj-rev0  Built by MinGW-W64 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccfurTyd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/cc1.exe -quiet -v -iprefix C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=core2 -march=nocona -auxbase-strip CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccC40BXG.s]
         ignore line: [GNU C17 (x86_64-posix-sjlj-rev0  Built by MinGW-W64 project) version 8.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 8.1.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.18-GMP]
         ignore line: []
@@ -501,8 +501,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 7d6121789872d4509209e56c3264e038]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-        ignore line: [ C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccfurTyd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [ C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccC40BXG.s]
         ignore line: [GNU assembler version 2.30 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.30]
         ignore line: [COMPILER_PATH=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../libexec/gcc/]
@@ -513,12 +513,12 @@ events:
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_82e87.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
-        ignore line: [Linking C executable cmTC_82e87.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_82e87.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_82e87.dir/objects.a]
-        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_82e87.dir/objects.a @CMakeFiles\\cmTC_82e87.dir\\objects1.rsp]
-        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_82e87.dir/objects.a -Wl --no-whole-archive -o cmTC_82e87.exe -Wl --out-implib libcmTC_82e87.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f109.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona']
+        ignore line: [Linking C executable cmTC_2f109.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2f109.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2f109.dir/objects.a]
+        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2f109.dir/objects.a @CMakeFiles\\cmTC_2f109.dir\\objects1.rsp]
+        ignore line: [C:\\PROGRA~2\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_2f109.dir/objects.a -Wl --no-whole-archive -o cmTC_2f109.exe -Wl --out-implib libcmTC_2f109.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\PROGRA~2\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe]
@@ -535,13 +535,13 @@ events:
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82e87.exe' '-mtune=core2' '-march=nocona']
-        link line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccyNbdzq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_82e87.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_82e87.dir/objects.a --no-whole-archive --out-implib libcmTC_82e87.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f109.exe' '-mtune=core2' '-march=nocona']
+        link line: [ C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccwr2IZ2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_2f109.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f109.dir/objects.a --no-whole-archive --out-implib libcmTC_2f109.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
           arg [C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccyNbdzq.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccwr2IZ2.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -565,7 +565,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_82e87.exe] ==> ignore
+          arg [cmTC_2f109.exe] ==> ignore
           arg [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o] ==> obj [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o]
           arg [-LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0] ==> dir [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0]
@@ -576,10 +576,10 @@ events:
           arg [-LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..] ==> dir [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_82e87.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_2f109.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_82e87.dll.a] ==> ignore
+          arg [libcmTC_2f109.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -604,7 +604,7 @@ events:
           arg [-lmsvcrt] ==> lib [msvcrt]
           arg [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o] ==> obj [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
         ignore line: [collect2 version 8.1.0]
-        ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccyNbdzq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_82e87.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_82e87.dir/objects.a --no-whole-archive --out-implib libcmTC_82e87.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
+        ignore line: [C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~2/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/8.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Joaquin\\AppData\\Local\\Temp\\ccwr2IZ2.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw810/x86_64-810-posix-sjlj-rt_v6-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_2f109.exe C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtbegin.o -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0 -LC:/PROGRA~2/mingw64/bin/../lib/gcc -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f109.dir/objects.a --no-whole-archive --out-implib libcmTC_2f109.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/crtend.o]
         linker tool for 'C': C:/PROGRA~2/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -645,8 +645,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nz3bkn"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nz3bkn"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2orky4"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2orky4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -657,19 +657,19 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nz3bkn'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2orky4'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0525b/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0525b.dir\\build.make CMakeFiles/cmTC_0525b.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nz3bkn'
-        Building C object CMakeFiles/cmTC_0525b.dir/CheckIncludeFile.c.obj
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_0525b.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nz3bkn\\CheckIncludeFile.c
-        Linking C executable cmTC_0525b.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0525b.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0525b.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_0525b.dir/objects.a @CMakeFiles\\cmTC_0525b.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_0525b.dir/objects.a -Wl,--no-whole-archive -o cmTC_0525b.exe -Wl,--out-implib,libcmTC_0525b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0525b.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nz3bkn'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0ba71/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0ba71.dir\\build.make CMakeFiles/cmTC_0ba71.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2orky4'
+        Building C object CMakeFiles/cmTC_0ba71.dir/CheckIncludeFile.c.obj
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_0ba71.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2orky4\\CheckIncludeFile.c
+        Linking C executable cmTC_0ba71.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0ba71.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0ba71.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_0ba71.dir/objects.a @CMakeFiles\\cmTC_0ba71.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_0ba71.dir/objects.a -Wl,--no-whole-archive -o cmTC_0ba71.exe -Wl,--out-implib,libcmTC_0ba71.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0ba71.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-2orky4'
         
       exitCode: 0
   -
@@ -682,8 +682,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-na4twe"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-na4twe"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yyspyd"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yyspyd"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -694,19 +694,19 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-na4twe'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yyspyd'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3d4c4/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3d4c4.dir\\build.make CMakeFiles/cmTC_3d4c4.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-na4twe'
-        Building C object CMakeFiles/cmTC_3d4c4.dir/CheckIncludeFile.c.obj
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_3d4c4.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-na4twe\\CheckIncludeFile.c
-        Linking C executable cmTC_3d4c4.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3d4c4.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3d4c4.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_3d4c4.dir/objects.a @CMakeFiles\\cmTC_3d4c4.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3d4c4.dir/objects.a -Wl,--no-whole-archive -o cmTC_3d4c4.exe -Wl,--out-implib,libcmTC_3d4c4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3d4c4.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-na4twe'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_269e9/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_269e9.dir\\build.make CMakeFiles/cmTC_269e9.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yyspyd'
+        Building C object CMakeFiles/cmTC_269e9.dir/CheckIncludeFile.c.obj
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_269e9.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yyspyd\\CheckIncludeFile.c
+        Linking C executable cmTC_269e9.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_269e9.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_269e9.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_269e9.dir/objects.a @CMakeFiles\\cmTC_269e9.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_269e9.dir/objects.a -Wl,--no-whole-archive -o cmTC_269e9.exe -Wl,--out-implib,libcmTC_269e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_269e9.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yyspyd'
         
       exitCode: 0
   -
@@ -719,8 +719,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nl7guw"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nl7guw"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nsp51b"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nsp51b"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -731,19 +731,19 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nl7guw'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nsp51b'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_377f6/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_377f6.dir\\build.make CMakeFiles/cmTC_377f6.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nl7guw'
-        Building C object CMakeFiles/cmTC_377f6.dir/CheckIncludeFile.c.obj
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_377f6.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl7guw\\CheckIncludeFile.c
-        Linking C executable cmTC_377f6.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_377f6.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_377f6.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_377f6.dir/objects.a @CMakeFiles\\cmTC_377f6.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_377f6.dir/objects.a -Wl,--no-whole-archive -o cmTC_377f6.exe -Wl,--out-implib,libcmTC_377f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_377f6.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nl7guw'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_01d28/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_01d28.dir\\build.make CMakeFiles/cmTC_01d28.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nsp51b'
+        Building C object CMakeFiles/cmTC_01d28.dir/CheckIncludeFile.c.obj
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_01d28.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nsp51b\\CheckIncludeFile.c
+        Linking C executable cmTC_01d28.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_01d28.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_01d28.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_01d28.dir/objects.a @CMakeFiles\\cmTC_01d28.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_01d28.dir/objects.a -Wl,--no-whole-archive -o cmTC_01d28.exe -Wl,--out-implib,libcmTC_01d28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_01d28.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-nsp51b'
         
       exitCode: 0
   -
@@ -756,8 +756,8 @@ events:
     checks:
       - "Check size of void*"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yiuf6w"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yiuf6w"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-j8ao83"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-j8ao83"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -768,19 +768,19 @@ events:
       variable: "HAVE_SIZEOF_VOID_PTR"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yiuf6w'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-j8ao83'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_131cd/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_131cd.dir\\build.make CMakeFiles/cmTC_131cd.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yiuf6w'
-        Building C object CMakeFiles/cmTC_131cd.dir/SIZEOF_VOID_PTR.c.obj
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_131cd.dir\\SIZEOF_VOID_PTR.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yiuf6w\\SIZEOF_VOID_PTR.c
-        Linking C executable cmTC_131cd.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_131cd.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_131cd.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_131cd.dir/objects.a @CMakeFiles\\cmTC_131cd.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_131cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_131cd.exe -Wl,--out-implib,libcmTC_131cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_131cd.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-yiuf6w'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3a7b4/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3a7b4.dir\\build.make CMakeFiles/cmTC_3a7b4.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-j8ao83'
+        Building C object CMakeFiles/cmTC_3a7b4.dir/SIZEOF_VOID_PTR.c.obj
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_3a7b4.dir\\SIZEOF_VOID_PTR.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8ao83\\SIZEOF_VOID_PTR.c
+        Linking C executable cmTC_3a7b4.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3a7b4.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3a7b4.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_3a7b4.dir/objects.a @CMakeFiles\\cmTC_3a7b4.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_3a7b4.dir/objects.a -Wl,--no-whole-archive -o cmTC_3a7b4.exe -Wl,--out-implib,libcmTC_3a7b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3a7b4.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-j8ao83'
         
       exitCode: 0
   -
@@ -791,8 +791,8 @@ events:
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-gxqnp4"
-      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-gxqnp4"
+      source: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-59s9tz"
+      binary: "C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-59s9tz"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -804,19 +804,19 @@ events:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-gxqnp4'
+        Change Dir: 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-59s9tz'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_559f9/fast
-        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_559f9.dir\\build.make CMakeFiles/cmTC_559f9.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-gxqnp4'
-        Building C object CMakeFiles/cmTC_559f9.dir/CheckIncludeFile.c.obj
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_559f9.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gxqnp4\\CheckIncludeFile.c
-        Linking C executable cmTC_559f9.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_559f9.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_559f9.dir/objects.a
-        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_559f9.dir/objects.a @CMakeFiles\\cmTC_559f9.dir\\objects1.rsp
-        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_559f9.dir/objects.a -Wl,--no-whole-archive -o cmTC_559f9.exe -Wl,--out-implib,libcmTC_559f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_559f9.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-gxqnp4'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~2/mingw64/bin/mingw32-make.exe -f Makefile cmTC_99148/fast
+        C:/PROGRA~2/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_99148.dir\\build.make CMakeFiles/cmTC_99148.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-59s9tz'
+        Building C object CMakeFiles/cmTC_99148.dir/CheckIncludeFile.c.obj
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_99148.dir\\CheckIncludeFile.c.obj -c C:\\bomb_storm\\proyecto_final_CC2\\cmake-sfml-project-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59s9tz\\CheckIncludeFile.c
+        Linking C executable cmTC_99148.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_99148.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_99148.dir/objects.a
+        C:\\PROGRA~2\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_99148.dir/objects.a @CMakeFiles\\cmTC_99148.dir\\objects1.rsp
+        C:\\PROGRA~2\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_99148.dir/objects.a -Wl,--no-whole-archive -o cmTC_99148.exe -Wl,--out-implib,libcmTC_99148.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_99148.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/bomb_storm/proyecto_final_CC2/cmake-sfml-project-master/build/CMakeFiles/CMakeScratch/TryCompile-59s9tz'
         
       exitCode: 0
 ...

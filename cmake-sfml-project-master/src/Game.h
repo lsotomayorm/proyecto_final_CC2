@@ -3,7 +3,8 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include "Player.h"
-#include <map>
+#include "Enemy.h"
+#include <vector>
 class Game
 {
 private:
@@ -15,6 +16,10 @@ private:
     sf::Sprite backgSprite;
     //Player
     Player* player;
+    //Enemies
+    std::vector<Enemy*> enemies; 
+    
+
     //Clock
     sf::Clock clock;
     //Private functions

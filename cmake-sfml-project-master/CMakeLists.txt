@@ -13,7 +13,8 @@ FetchContent_MakeAvailable(SFML)
 set(SOURCES
     src/main
     src/Game.cpp
-    src/Player.cpp)
+    src/Player.cpp
+    src/Enemy.cpp)
 
 add_executable(main ${SOURCES})
 target_link_libraries(main PRIVATE sfml-graphics)
