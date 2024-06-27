@@ -2,7 +2,7 @@
 //Private functions
 void Game::initWindow()
 {
-    this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "Game 2", sf::Style::Close | sf::Style::Titlebar);
+    this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "Bomb Storm", sf::Style::Close | sf::Style::Titlebar);
     this->window->setFramerateLimit(55);
     this->window->setVerticalSyncEnabled(false);
 }
