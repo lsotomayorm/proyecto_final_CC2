@@ -2,7 +2,7 @@
 
 void Enemy::initTexture()
 {
-    if(!this->texture.loadFromFile("src/Textures/Enemy.png")){
+    if(!this->texture.loadFromFile("../../src/Textures/Enemy.png")){
         std::cout << "ERROR::ENEMY::INITTEXTURE::Could not load texture file." << "\n";
     }
 

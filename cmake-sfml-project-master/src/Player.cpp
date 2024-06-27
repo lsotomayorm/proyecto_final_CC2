@@ -4,7 +4,7 @@ void Player::initTexture()
 {
     //Load a texture from file
 
-    if(!this->texture.loadFromFile("src/Textures/Run.png")){
+    if(!this->texture.loadFromFile("../../src/Textures/Run.png")){
         std::cout <<"ERROR::PLAYER::INITTEXTURE::Could not load texture file. " << "\n";
     }
 }

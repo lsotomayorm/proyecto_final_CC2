@@ -19,7 +19,7 @@ void Game::initTextures()
 
 void Game::initBackground()
 {
-    if (!this->backgTexture.loadFromFile("src/Textures/Fondo.png"))
+    if (!this->backgTexture.loadFromFile("../../src/Textures/Fondo.png"))
     {
         std::cout << "ERROR::GAME::INITBACKGROUND::Could not load background texture file." << "\n";
     }
