@@ -16,7 +16,7 @@ private:
     bool isJumping;
     float groundLevel;
 
-    //Private functions
+    //Funciones Privadas
     void initTexture();
     void initSprite();
 public:
@@ -25,7 +25,7 @@ public:
     //Accesors
     const sf::Vector2f& getPos() const;
 
-    //Functions
+    //Funciones
     void move(const float dirX, const float dirY);
     void jump();
     void update(const float DeltaTime);

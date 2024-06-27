@@ -2,7 +2,7 @@
 
 void Player::initTexture()
 {
-    //Load a texture from file
+    //Cargamos la textura desde el archivo
 
     if(!this->texture.loadFromFile("../../src/Textures/Run.png")){
         std::cout <<"ERROR::PLAYER::INITTEXTURE::Could not load texture file. " << "\n";
@@ -11,13 +11,13 @@ void Player::initTexture()
 
 void Player::initSprite()
 {   
-    //set the texture of sprite
+    //Establecer la textura de el sprite
     this->sprite.setTexture(this->texture);
     sf::Vector2u textureSize = this->texture.getSize();
     textureSize.x /= 11;
     textureSize.y /= 1;
     this->sprite.setTextureRect(sf::IntRect(textureSize.x * 2, 0, textureSize.x, textureSize.y));
-    //Resize the sprite
+    //Escalamos el sprite
     this->sprite.scale(2.1f, 2.1f);
 }
 
