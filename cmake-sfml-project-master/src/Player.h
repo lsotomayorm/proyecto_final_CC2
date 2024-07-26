@@ -3,11 +3,13 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 #include <iostream>
+#include "Animation.h"
 class Player
 {
 private:
+    sf::RectangleShape player;
     sf::Sprite sprite;
-    sf::Texture texture;
+    sf::Texture playerTexture;
 
     float movementSpeed;
     float jumpStrength;
@@ -15,6 +17,8 @@ private:
     sf::Vector2f velocity;
     bool isJumping;
     float groundLevel;
+
+    Animation animationPlayer;
 
     //Private functions
     void initTexture();

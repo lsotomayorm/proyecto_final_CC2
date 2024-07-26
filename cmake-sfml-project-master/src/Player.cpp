@@ -4,21 +4,24 @@ void Player::initTexture()
 {
     //Load a texture from file
 
-    if(!this->texture.loadFromFile("../../src/Textures/Run.png")){
+    if(!this->playerTexture.loadFromFile("../../src/Textures/Idle.png")){
         std::cout <<"ERROR::PLAYER::INITTEXTURE::Could not load texture file. " << "\n";
     }
 }
 
 void Player::initSprite()
 {   
+    
     //set the texture of sprite
-    this->sprite.setTexture(this->texture);
-    sf::Vector2u textureSize = this->texture.getSize();
-    textureSize.x /= 11;
-    textureSize.y /= 1;
-    this->sprite.setTextureRect(sf::IntRect(textureSize.x * 2, 0, textureSize.x, textureSize.y));
+    this->sprite.setTexture(this->playerTexture);
+    this->sprite.setPosition(50.0f, groundLevel);
+    this->sprite.setScale(2.1f, 2.1f);
+    //sf::Vector2u textureSize = this->texture.getSize();
+    //textureSize.x /= 11;
+    //textureSize.y /= 1;
+    //this->sprite.setTextureRect(sf::IntRect(textureSize.x * 2, 0, textureSize.x, textureSize.y));
     //Resize the sprite
-    this->sprite.scale(2.1f, 2.1f);
+    //this->sprite.scale(2.1f, 2.1f);
 }
 
 Player::Player()
@@ -30,9 +33,12 @@ Player::Player()
     this->isJumping = false;
     this->groundLevel = 538.0f;
 
+    //this->player.setSize(sf::Vector2f(100.0f, 150.0f));
+
     this->initTexture();
     this->initSprite();
-    this->sprite.setPosition(375.0f, groundLevel);
+
+    this->animationPlayer.initialize(&playerTexture, sf::Vector2u(11,1), 0.3f);
 }
 
 Player::~Player()
@@ -65,6 +71,10 @@ void Player::jump()
 
 void Player::update(const float deltaTime)
 {
+    animationPlayer.update(deltaTime);
+    this->sprite.setTextureRect(animationPlayer.uvRect);
+    //this->sprite.scale(2.1f, 2.1f);
+
     if (this->isJumping) {
         this->velocity.y += this->gravity * deltaTime;
         this->sprite.move(0.0f, this->velocity.y * deltaTime);

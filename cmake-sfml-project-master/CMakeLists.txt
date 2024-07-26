@@ -14,7 +14,8 @@ set(SOURCES
     src/main
     src/Game.cpp
     src/Player.cpp
-    src/Enemy.cpp)
+    src/Enemy.cpp
+    src/Animation.cpp)
 
 add_executable(main ${SOURCES})
 target_link_libraries(main PRIVATE sfml-graphics)
