@@ -18,6 +18,9 @@ Bomb Storm es un videojuego multijugador local, en donde tendremos que sobrevivi
 
 ## Problemas en el desarrollo y sus posible soluciones
 
+A la hora de terminar la vida del jugador este no desaparece adecuadamente, ya que existen conflictos entre la clase Animacion y como se maneja el sprite del jugador. Una posible solucion seria manejar los Sprites a travez de la clase de Animacion, esto pudiendo agregar animaciones de muerte.
+Falta de uso de Patrones. Esto se puede solucionar 
+
 ## Requerimientos para la ejecución del juego
 
 Bomb Storm es un videojuego multijugador local, en donde tendremos que sobrevivir lo más posible a una serie de proyectiles que aparecerán por la parte superior de la pantalla. Contaremos con un vida limitada que se reducirá al ser impactados por cualquier proyectil, si nuestra vida llegara a 0 perderiamos el juego. Por parte del lado multijugador se trata de un juego cooperativo, ya que nuestra vida es compartida y es responsabilidad de ambos jugadores cuidar de esta.
