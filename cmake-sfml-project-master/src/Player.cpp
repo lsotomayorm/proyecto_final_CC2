@@ -45,6 +45,7 @@ Player::Player()
 
 Player::~Player()
 {
+    
 }
 
 const sf::Vector2f &Player::getPos() const
@@ -92,6 +93,12 @@ void Player::takeDamage(int damage)
     if(this->health < 0){
         this->health = 0;
     }
+}
+
+void Player::setSprite(sf::Texture& emptyTexture)
+{
+
+    this->sprite.setTexture(emptyTexture);
 }
 
 void Player::update(const float deltaTime)

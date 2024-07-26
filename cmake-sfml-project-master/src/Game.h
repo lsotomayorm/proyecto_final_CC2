@@ -40,6 +40,7 @@ private:
 
 
 public:
+    bool misiles;
     Game(/* args */);
     ~Game();
     //Funciones

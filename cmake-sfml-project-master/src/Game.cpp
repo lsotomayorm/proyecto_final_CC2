@@ -53,6 +53,7 @@ void Game::updateCollisions()
             this->enemies.erase(std::remove(this->enemies.begin(), this->enemies.end(), enemy), this->enemies.end());
 
         }
+
         if(enemy->getBounds().intersects(this->player2->getBounds()))
         {
             this->player2->takeDamage(enemy->getDamage());
@@ -61,6 +62,15 @@ void Game::updateCollisions()
             this->enemies.erase(std::remove(this->enemies.begin(), this->enemies.end(), enemy), this->enemies.end());
             
         }
+    }
+
+    if(this->player1->getHealth() == 0){
+        this->player1->setPosition(-400.f,-538.f);
+        misiles = false;
+    }
+    if(this->player2->getHealth() == 0){
+        this->player2->setPosition(-400.f,-538.f);misiles = false;
+        misiles = false;
     }
 }
 
@@ -95,6 +105,7 @@ Game::Game()
     this->initEnemies();
     this->initFonts();
     this->initTexts();
+    misiles = true;
 }
 
 Game::~Game()
@@ -153,30 +164,30 @@ void Game::updateinput()
 void Game::updateEnemies(const float& DeltaTime)
 {
     if(this->spawnTimer < this->spawnTimerMax)
-        this->spawnTimer += 1.f;
-    else{
-        for (int i = 0; i < 4; i++)
-        {
-            this->enemies.push_back(new Enemy(static_cast<float>(rand() % this->window->getSize().x - 50.0f), -50.0f));
+            this->spawnTimer += 1.f;
+        else{
+            for (int i = 0; i < 4; i++)
+            {
+                this->enemies.push_back(new Enemy(static_cast<float>(rand() % this->window->getSize().x - 50.0f), -50.0f));
+            }
+            
+            this->spawnTimer = 0.f;
         }
-        
-        this->spawnTimer = 0.f;
-    }
-    unsigned counter = 0;
-    for (auto* enemy : this->enemies)
-    {
-        enemy->update(DeltaTime);
-
-        // Si el enemigo ha pasado la parte inferior de la pantalla, elimínalo.
-        if (enemy->getBounds().top > this->window->getSize().y)
+        unsigned counter = 0;
+        for (auto* enemy : this->enemies)
         {
-            delete this->enemies.at(counter);
-            this->enemies.erase(this->enemies.begin() + counter);
-            --counter;
-        }
+            enemy->update(DeltaTime);
 
-        ++counter;
-    }
+            // Si el enemigo ha pasado la parte inferior de la pantalla, elimínalo.
+            if (enemy->getBounds().top > this->window->getSize().y)
+            {
+                delete this->enemies.at(counter);
+                this->enemies.erase(this->enemies.begin() + counter);
+                --counter;
+            }
+
+            ++counter;
+        }
 }
 
 void Game::update()

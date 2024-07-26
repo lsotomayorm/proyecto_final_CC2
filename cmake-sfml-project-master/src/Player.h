@@ -37,6 +37,7 @@ public:
     void move(const float dirX, const float dirY);
     void jump();
     void takeDamage(int damage);
+    void setSprite(sf::Texture& emptyTexture);
     void update(const float DeltaTime);
     void render(sf::RenderTarget& target);
 };
