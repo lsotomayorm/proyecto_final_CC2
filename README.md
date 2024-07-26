@@ -25,11 +25,12 @@ Principalmente necesitaremos descargar Git y CMake. Git nos ayudará a clonar el
 
 ### Copiamos la url del repositorio del proyecto
 
-![URL](Documentacion/CapturaJuego2)
+![URL](Documentacion/CapturaJuego2.PNG)
 
 ### y lo clonamos usando git clone “url del proyecto”
 
-![Ejemplo](Documentacion/CapturaJuego3)
+![Ejemplo](Documentacion/CapturaJuego3.PNG)
+
 Luego de esto usaremos los comandos para generar el entorno de ejecución:
 ### Linux o MacOS
 
