@@ -9,7 +9,9 @@ void Game::initWindow()
 
 void Game::initPlayer()
 {
-    this->player = new Player;
+    this->player1 = new Player;
+    this->player2 = new Player;
+    this->player2->setPosition(400.f,538.f);
 }
 
 void Game::initTextures()
@@ -52,7 +54,8 @@ Game::Game()
 Game::~Game()
 {
     delete this->window;
-    delete this->player;
+    delete this->player1;
+    delete this->player2;
 
 }
 //Funciones
@@ -79,15 +82,25 @@ void Game::updatePollEvents()
 
 void Game::updateinput()
 {
-    //Mover al Player
+    //Mover al Player1
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
-        this->player->move(-1.f, 0.f);
+        this->player1->move(-1.f, 0.f);
     }
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
-        this->player->move(1.f, 0.f);
+        this->player1->move(1.f, 0.f);
     }
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
-        this->player->jump();
+        this->player1->jump();
+    }
+    //Mover al Player2
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
+        this->player2->move(-1.f, 0.f);
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
+        this->player2->move(1.f, 0.f);
+    }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)){
+        this->player2->jump();
     }
 }
 
@@ -127,7 +140,8 @@ void Game::update()
     this->updateinput();
 
     float deltaTime = this->clock.restart().asSeconds();
-    this->player->update(deltaTime);
+    this->player1->update(deltaTime);
+    this->player2->update(deltaTime);
     this->updateEnemies(deltaTime);
     
 }
@@ -137,7 +151,8 @@ void Game::render()
     this->window->clear();
     this->window->draw(this->backgSprite);
     //Dibuja todas las cosas
-    this->player->render(*this->window);
+    this->player1->render(*this->window);
+    this->player2->render(*this->window);
     //Dibuja a los enmigos
     for (auto* enemy : this->enemies)
     {

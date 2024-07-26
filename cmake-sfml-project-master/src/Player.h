@@ -30,6 +30,7 @@ public:
     const sf::Vector2f& getPos() const;
 
     //Funciones
+    void setPosition(float x, float y);
     void move(const float dirX, const float dirY);
     void jump();
     void update(const float DeltaTime);

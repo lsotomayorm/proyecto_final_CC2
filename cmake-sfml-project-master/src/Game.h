@@ -14,8 +14,9 @@ private:
     //Background
     sf::Texture backgTexture;
     sf::Sprite backgSprite;
-    //Player
-    Player* player;
+    //Players
+    Player* player1;
+    Player* player2;
     //Enemies
     std::vector<Enemy*> enemies; 
     float spawnTimer;

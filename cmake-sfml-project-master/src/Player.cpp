@@ -50,6 +50,11 @@ const sf::Vector2f &Player::getPos() const
     return this->sprite.getPosition();
 }
 
+void Player::setPosition(float x, float y)
+{
+    this->sprite.setPosition(x, y);
+}
+
 void Player::move(const float dirX, const float dirY)
 {   
     sf::Vector2f newPos = this->sprite.getPosition() + sf::Vector2f(this->movementSpeed * dirX, this->movementSpeed * dirY);
