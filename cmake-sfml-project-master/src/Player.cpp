@@ -2,7 +2,7 @@
 
 void Player::initTexture()
 {
-    //Load a texture from file
+    //Cargamos la textura desde el archivo
 
     if(!this->playerTexture.loadFromFile("../../src/Textures/Idle.png")){
         std::cout <<"ERROR::PLAYER::INITTEXTURE::Could not load texture file. " << "\n";

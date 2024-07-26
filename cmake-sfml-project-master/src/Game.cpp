@@ -1,5 +1,5 @@
 #include "Game.h"
-//Private functions
+//Funciones Privadas
 void Game::initWindow()
 {
     this->window = new sf::RenderWindow(sf::VideoMode(800, 600), "Bomb Storm", sf::Style::Close | sf::Style::Titlebar);
@@ -53,10 +53,9 @@ Game::~Game()
 {
     delete this->window;
     delete this->player;
-    //Delete textures
 
 }
-//Functions
+//Funciones
 void Game::run()
 {
     while(this->window->isOpen())
@@ -80,7 +79,7 @@ void Game::updatePollEvents()
 
 void Game::updateinput()
 {
-    //move player
+    //Mover al Player
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
         this->player->move(-1.f, 0.f);
     }
@@ -137,9 +136,9 @@ void Game::render()
 {
     this->window->clear();
     this->window->draw(this->backgSprite);
-    //Draw all the stuffs
+    //Dibuja todas las cosas
     this->player->render(*this->window);
-    //Draw Enemies
+    //Dibuja a los enmigos
     for (auto* enemy : this->enemies)
     {
         enemy->render(*this->window);

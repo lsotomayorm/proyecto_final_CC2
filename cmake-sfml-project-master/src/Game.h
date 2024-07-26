@@ -23,7 +23,7 @@ private:
 
     //Clock
     sf::Clock clock;
-    //Private functions
+    //Funciones Privadas
     void initWindow();
     void initPlayer();
     void initTextures();
@@ -35,7 +35,7 @@ private:
 public:
     Game(/* args */);
     ~Game();
-    //Functions
+    //Funciones
     void run();
     void updatePollEvents();
     void updateinput();

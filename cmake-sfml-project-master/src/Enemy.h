@@ -10,7 +10,7 @@ private:
     sf::Texture texture;
     float movementSpeed;
 
-    //Private Functions
+    //Funciones Privadas
     void initTexture();
     void initSprite(); 
 
@@ -22,7 +22,7 @@ public:
     const sf::Vector2f& getPos() const;
     const sf::FloatRect getBounds() const;
 
-    // Functions
+    // Funciones
     void move(const float dirX, const float dirY);
     void update(const float deltaTime);
     void render(sf::RenderTarget& target);
