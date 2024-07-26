@@ -22,7 +22,7 @@ Bomb Storm es un videojuego multijugador local, en donde tendremos que sobrevivi
 
 Bomb Storm es un videojuego multijugador local, en donde tendremos que sobrevivir lo más posible a una serie de proyectiles que aparecerán por la parte superior de la pantalla. Contaremos con un vida limitada que se reducirá al ser impactados por cualquier proyectil, si nuestra vida llegara a 0 perderiamos el juego. Por parte del lado multijugador se trata de un juego cooperativo, ya que nuestra vida es compartida y es responsabilidad de ambos jugadores cuidar de esta.
 Principalmente necesitaremos descargar Git y CMake. Git nos ayudará a clonar el proyecto, aunque se puede descargar es más seguro clonarlo utilizando esta herramienta, CMake no ayudará a crear nuestro entorno de ejecución, proporcionandonos la librería SFML por medio de una plantilla encontrada en la página de SFML en un repositorio(https://github.com/SFML/cmake-sfml-project) 
-### Descargamos e Instalamos CMake
+### Descargamos e Instalamos CMake(https://cmake.org)
 
 ![Descarga](Documentacion/CapturaJuego4.PNG)
 ![Descarga](Documentacion/CapturaJuego6.PNG)
@@ -64,7 +64,8 @@ cmake --build build
         libegl1-mesa-dev
     ```
 ### El primer comando es para construir el entorno y el segundo para compilar el programa.
-### Una vez compilado este programa esta hecho para poder ejecutarse usando directamente el ejecutable creado, este lo puede encontrar dentro de la ruta "build/bin" del proyecto. 
+### Una vez compilado este programa está hecho para poder ejecutarse usando directamente el ejecutable creado, este lo puede encontrar dentro de la ruta "build/bin" del proyecto.
+
 
 
 
