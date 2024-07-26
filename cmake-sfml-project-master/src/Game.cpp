@@ -41,6 +41,50 @@ void Game::initEnemies()
     this->spawnTimer = this->spawnTimerMax;
 }
 
+void Game::updateCollisions()
+{
+    for(auto* enemy : this->enemies)
+    {
+        if(enemy->getBounds().intersects(this->player1->getBounds()))
+        {
+            this->player1->takeDamage(enemy->getDamage());
+
+            delete enemy;
+            this->enemies.erase(std::remove(this->enemies.begin(), this->enemies.end(), enemy), this->enemies.end());
+
+        }
+        if(enemy->getBounds().intersects(this->player2->getBounds()))
+        {
+            this->player2->takeDamage(enemy->getDamage());
+
+            delete enemy;
+            this->enemies.erase(std::remove(this->enemies.begin(), this->enemies.end(), enemy), this->enemies.end());
+            
+        }
+    }
+}
+
+void Game::initFonts()
+{
+    if (!this->font.loadFromFile("../../src/Fonts/pixel-letters.ttf"))
+    {
+        std::cout << "ERROR::GAME::INITFONTS::Could not load font file." << "\n";
+    }
+}
+
+void Game::initTexts()
+{
+    this->player1HealthText.setFont(this->font);
+    this->player1HealthText.setCharacterSize(20);
+    this->player1HealthText.setFillColor(sf::Color::White);
+    this->player1HealthText.setPosition(10.f, 10.f);
+
+    this->player2HealthText.setFont(this->font);
+    this->player2HealthText.setCharacterSize(20);
+    this->player2HealthText.setFillColor(sf::Color::White);
+    this->player2HealthText.setPosition(600.f, 10.f);
+}
+
 //Con/Des
 Game::Game()
 {
@@ -49,6 +93,8 @@ Game::Game()
     this->initBackground();
     this->initPlayer();
     this->initEnemies();
+    this->initFonts();
+    this->initTexts();
 }
 
 Game::~Game()
@@ -143,6 +189,10 @@ void Game::update()
     this->player1->update(deltaTime);
     this->player2->update(deltaTime);
     this->updateEnemies(deltaTime);
+    this->updateCollisions();
+
+    this->player1HealthText.setString("Player 1 Health " + std::to_string(this->player1->getHealth()));
+    this->player2HealthText.setString("Player 2 Health " + std::to_string(this->player2->getHealth()));
     
 }
 
@@ -158,6 +208,7 @@ void Game::render()
     {
         enemy->render(*this->window);
     }
-
+    this->window->draw(this->player1HealthText);
+    this->window->draw(this->player2HealthText);
     this->window->display();
 }

@@ -9,7 +9,7 @@ private:
     sf::Sprite sprite;
     sf::Texture texture;
     float movementSpeed;
-
+    int damage;
     //Funciones Privadas
     void initTexture();
     void initSprite(); 
@@ -21,6 +21,7 @@ public:
     // Accessors
     const sf::Vector2f& getPos() const;
     const sf::FloatRect getBounds() const;
+    int getDamage() const;
 
     // Funciones
     void move(const float dirX, const float dirY);

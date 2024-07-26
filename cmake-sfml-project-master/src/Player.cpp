@@ -32,6 +32,8 @@ Player::Player()
     this->velocity = sf::Vector2f(0.0f, 0.0f);
     this->isJumping = false;
     this->groundLevel = 538.0f;
+    this->health = 3;
+
 
     //this->player.setSize(sf::Vector2f(100.0f, 150.0f));
 
@@ -48,6 +50,16 @@ Player::~Player()
 const sf::Vector2f &Player::getPos() const
 {
     return this->sprite.getPosition();
+}
+
+const sf::FloatRect Player::getBounds() const
+{
+    return this->sprite.getGlobalBounds();
+}
+
+int Player::getHealth() const
+{
+    return this->health;
 }
 
 void Player::setPosition(float x, float y)
@@ -71,6 +83,14 @@ void Player::jump()
     if (!this->isJumping) {
         this->isJumping = true;
         this->velocity.y = -this->jumpStrength;
+    }
+}
+
+void Player::takeDamage(int damage)
+{
+    this->health -= damage;
+    if(this->health < 0){
+        this->health = 0;
     }
 }
 

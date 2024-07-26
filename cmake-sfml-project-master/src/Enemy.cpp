@@ -18,6 +18,7 @@ void Enemy::initSprite()
 Enemy::Enemy(float posX, float posY)
 {
     this->movementSpeed = 150.0f;
+    this->damage = 1;
 
     this->initTexture();
     this->initSprite();
@@ -38,6 +39,11 @@ const sf::Vector2f &Enemy::getPos() const
 const sf::FloatRect Enemy::getBounds() const
 {
     return this->sprite.getGlobalBounds();
+}
+
+int Enemy::getDamage() const
+{
+    return this->damage;
 }
 
 void Enemy::move(const float dirX, const float dirY)

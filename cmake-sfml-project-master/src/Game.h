@@ -11,6 +11,9 @@ private:
     //Window
     sf::RenderWindow* window;
     //Resources
+    sf::Font font;
+    sf::Text player1HealthText;
+    sf::Text player2HealthText;
     //Background
     sf::Texture backgTexture;
     sf::Sprite backgSprite;
@@ -30,6 +33,9 @@ private:
     void initTextures();
     void initBackground();
     void initEnemies();
+    void updateCollisions();
+    void initFonts();
+    void initTexts();
 
 
 

@@ -17,6 +17,7 @@ private:
     sf::Vector2f velocity;
     bool isJumping;
     float groundLevel;
+    int health;
 
     Animation animationPlayer;
 
@@ -28,11 +29,14 @@ public:
     ~Player();
     //Accesors
     const sf::Vector2f& getPos() const;
+    const sf::FloatRect getBounds() const;
+    int getHealth() const;
 
     //Funciones
     void setPosition(float x, float y);
     void move(const float dirX, const float dirY);
     void jump();
+    void takeDamage(int damage);
     void update(const float DeltaTime);
     void render(sf::RenderTarget& target);
 };
