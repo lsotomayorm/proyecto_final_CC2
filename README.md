@@ -11,7 +11,7 @@ Bomb storm es un videojuego de reflejos que nos obliga a sobrevivir a una lluvia
 - Jesus Alberto Alfaro Buiza
 ## Imagen del Juego
 
-![Juego](https://media.discordapp.net/attachments/366006299864989699/1255948702686646292/juego1.png?ex=667efce1&is=667dab61&hm=e10b5cc26beb74292df582e7a94731a231ded4f15a5372b47731a0b617412c7a&=&format=webp&quality=lossless&width=788&height=628)
+![Juego](Documentacion/CapturaJuego1.PNG)
 
 
 
